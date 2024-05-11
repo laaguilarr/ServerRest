@@ -1,0 +1,122 @@
+{
+	"id": "5037a2e4-b33e-3233-e099-5a1b859a2f34",
+	"name": "ServerRestDIAN",
+	"description": "",
+	"order": [
+		"9266d680-cd93-b614-e562-ec2b3ca76790",
+		"58ee6659-3238-ddc3-dadf-23c21918c61f",
+		"7c4e7779-0dce-abd1-d4fc-981c292e7536",
+		"1acff256-098e-f4e7-daff-00c36fab3353"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1584638150680,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1acff256-098e-f4e7-daff-00c36fab3353",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/api/v1/users/3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "5037a2e4-b33e-3233-e099-5a1b859a2f34",
+			"data": null,
+			"dataMode": "params",
+			"name": "delete user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1584641232928,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "58ee6659-3238-ddc3-dadf-23c21918c61f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/v1/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1584640514267,
+			"name": "create user",
+			"description": "",
+			"collectionId": "5037a2e4-b33e-3233-e099-5a1b859a2f34",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 3,\n\t\"name\": \"Maria\",\n\t\"phone\": \"33333333\"\n}"
+		},
+		{
+			"id": "7c4e7779-0dce-abd1-d4fc-981c292e7536",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/v1/users/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "5037a2e4-b33e-3233-e099-5a1b859a2f34",
+			"data": [],
+			"dataMode": "raw",
+			"name": "update user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1584640934412,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\": \"Julian hurtado\",\n\t\"phone\": \"3355003\"\n}"
+		},
+		{
+			"id": "9266d680-cd93-b614-e562-ec2b3ca76790",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/api/v1/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1584640447779,
+			"name": "get user(s)",
+			"description": "",
+			"collectionId": "5037a2e4-b33e-3233-e099-5a1b859a2f34",
+			"responses": []
+		}
+	]
+}
